@@ -45,3 +45,4 @@ void IST8310::readData()
 	magZ_ = magZData * MAG_SEN;
 }
 
+IST8310 ist;
