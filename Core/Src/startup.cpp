@@ -12,8 +12,8 @@ void startup()
 	ist.init();
 	while (1)
 	{
-		ist.readData();
-		HAL_Delay(100);
+		// ist.readData();
+		// HAL_Delay(1000);
 	}
 }
 
