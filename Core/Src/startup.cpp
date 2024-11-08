@@ -4,11 +4,16 @@
 
 #include "startup.h"
 
+#include "ist.h"
+
+extern IST8310 ist;
 void startup()
 {
+	ist.init();
 	while (1)
 	{
-
+		ist.readData();
+		HAL_Delay(100);
 	}
 }
 
